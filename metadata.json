@@ -1,0 +1,14 @@
+{
+  "name": "desalvo-users",
+  "version": "0.1.0",
+  "author": "desalvo",
+  "summary": "Puppet module to manage users and ssh keys",
+  "license": "Apache 2.0",
+  "source": "https://github.com/desalvo/puppet-users",
+  "issues_url": "https://github.com/desalvo/puppet-users/issues",
+  "project_page": "https://github.com/desalvo/puppet-users",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
