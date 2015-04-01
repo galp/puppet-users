@@ -53,6 +53,10 @@ Tested on RedHat and derivatives only.
 
 ## Release Notes
 
+**0.1.1**
+
+* Fix typo in dependencies
+
 **0.1.0**
 
 * Initial version.
