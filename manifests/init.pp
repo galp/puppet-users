@@ -72,6 +72,7 @@ define users (
             managehome => true,
             home => "${homepath}/${username}",
             purge_ssh_keys => true
+            shell => '/bin/bash'
         }
         create_resources(user, $user_hash, $user_defaults)
         $user_req = User[$username]
